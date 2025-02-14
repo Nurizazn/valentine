@@ -42,16 +42,16 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #ffccd5; /* Background pink di seluruh layar */
 }
 
 .container {
-  min-height: 100vh; /* Pastikan container penuh layar */
+  min-height: 100vh; /* Agar container memenuhi layar */
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ffccd5;
   font-family: Arial, sans-serif;
   padding: 20px;
 }
